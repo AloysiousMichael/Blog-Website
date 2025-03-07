@@ -30,9 +30,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = getenv("IS_DEVELOPMENT",True) 
 
-ALLOWED_HOSTS = [
-    getenv("APP_HOST")
-]
+ALLOWED_HOSTS = ["blog-website-xbp0.onrender.com", "127.0.0.1", "localhost"]
 
 
 # Application definition
